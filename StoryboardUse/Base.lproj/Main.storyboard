@@ -18,25 +18,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mo2-Qk-zZm">
-                                <state key="normal" title="Button"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fjk-cY-SMl">
+                                <frame key="frameInset" minX="67" minY="28" width="240" height="391"/>
+                                <color key="backgroundColor" red="1" green="0.33822452289999999" blue="0.33323145160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="eZi-uY-AV0"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mo2-Qk-zZm">
+                                <frame key="frameInset" minX="151" minY="485" width="73" height="30"/>
+                                <state key="normal" title="显示图片"/>
                                 <connections>
                                     <action selector="si:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FoM-aK-PAE"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fjk-cY-SMl">
-                                <frame key="frameInset" minX="67" minY="28" width="240" height="619"/>
-                                <color key="backgroundColor" red="1" green="0.33822452289999999" blue="0.33323145160000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Fjk-cY-SMl" secondAttribute="trailing" id="Cpn-d4-xS3"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mo2-Qk-zZm" secondAttribute="bottom" id="THW-O8-o24"/>
-                            <constraint firstItem="Fjk-cY-SMl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UHb-Hl-x9T"/>
-                            <constraint firstItem="Fjk-cY-SMl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ZGi-4N-O2S"/>
+                            <constraint firstItem="mo2-Qk-zZm" firstAttribute="top" secondItem="Fjk-cY-SMl" secondAttribute="bottom" constant="300" id="AaJ-2S-KvS"/>
+                            <constraint firstItem="Fjk-cY-SMl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="BEc-zy-HA2"/>
+                            <constraint firstItem="Fjk-cY-SMl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="HZb-Rr-G8q"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mo2-Qk-zZm" secondAttribute="bottom" constant="50" id="Lxy-fa-vdI"/>
                             <constraint firstItem="mo2-Qk-zZm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gi6-Ej-apw"/>
-                            <constraint firstItem="mo2-Qk-zZm" firstAttribute="top" secondItem="Fjk-cY-SMl" secondAttribute="bottom" id="yhH-gn-GNd"/>
+                            <constraint firstAttribute="trailing" secondItem="Fjk-cY-SMl" secondAttribute="trailing" constant="50" id="ky1-7p-mWw"/>
                         </constraints>
                     </view>
                     <connections>
