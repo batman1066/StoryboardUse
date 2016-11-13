@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UIImageView *iv;
 
 @end
 
@@ -25,5 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)si:(id)sender {
+    self.iv.image = [UIImage imageNamed:@"356253"];
+
+
+}
 
 @end
