@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C420CCA1E5C7945001FB953 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C420CC91E5C7945001FB953 /* ViewController2.m */; };
 		8CB2400B1DD856DE005BA2B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2400A1DD856DE005BA2B3 /* main.m */; };
 		8CB2400E1DD856DE005BA2B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2400D1DD856DE005BA2B3 /* AppDelegate.m */; };
 		8CB240111DD856DE005BA2B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB240101DD856DE005BA2B3 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C420CC81E5C7945001FB953 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		8C420CC91E5C7945001FB953 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		8CB240061DD856DE005BA2B3 /* StoryboardUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB2400A1DD856DE005BA2B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CB2400C1DD856DE005BA2B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				8CB2400D1DD856DE005BA2B3 /* AppDelegate.m */,
 				8CB2400F1DD856DE005BA2B3 /* ViewController.h */,
 				8CB240101DD856DE005BA2B3 /* ViewController.m */,
+				8C420CC81E5C7945001FB953 /* ViewController2.h */,
+				8C420CC91E5C7945001FB953 /* ViewController2.m */,
 				8CB240121DD856DE005BA2B3 /* Main.storyboard */,
 				8CB240151DD856DE005BA2B3 /* Assets.xcassets */,
 				8CB240171DD856DE005BA2B3 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB240111DD856DE005BA2B3 /* ViewController.m in Sources */,
+				8C420CCA1E5C7945001FB953 /* ViewController2.m in Sources */,
 				8CB2400E1DD856DE005BA2B3 /* AppDelegate.m in Sources */,
 				8CB2400B1DD856DE005BA2B3 /* main.m in Sources */,
 			);
@@ -427,9 +433,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VCBJ7R8EST;
 				INFOPLIST_FILE = StoryboardUse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.StoryboardUse;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangming.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -439,9 +447,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VCBJ7R8EST;
 				INFOPLIST_FILE = StoryboardUse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.StoryboardUse;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangming.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -514,6 +524,7 @@
 				8CB240351DD856DF005BA2B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CB240361DD856DF005BA2B3 /* Build configuration list for PBXNativeTarget "StoryboardUseTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +533,7 @@
 				8CB240381DD856DF005BA2B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CB240391DD856DF005BA2B3 /* Build configuration list for PBXNativeTarget "StoryboardUseUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +542,7 @@
 				8CB2403B1DD856DF005BA2B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
